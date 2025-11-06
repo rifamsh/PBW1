@@ -1,4 +1,4 @@
-/* ====== GAYA DASAR ====== */
+/*  GAYA DASAR  */
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -12,7 +12,7 @@ h3 {
     margin: 0;
 }
 
-/* ====== HEADER / NAVBAR ====== */
+/*  HEADER / NAVBAR  */
 header {
     background-color: #0077b6;
     color: white;
@@ -52,16 +52,16 @@ header {
     color: #ffb703;
 }
 
-/* ====== MENU TOGGLE (untuk HP) ====== */
+/* MENU TOGGLE (untuk HP)  */
 .menu-toggle {
     display: none;
     font-size: 1.8rem;
     cursor: pointer;
 }
 
-/* ====== HERO SECTION ====== */
+/* HERO SECTION */
 .hero {
-    background: url('https://source.unsplash.com/1600x900/?indonesia,beach') center/cover no-repeat;
+    background: url('../asset/ciwidey.webp') center/cover no-repeat;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -104,7 +104,7 @@ header {
     background-color: #ffd166;
 }
 
-/* ====== SECTION ====== */
+/* SECTION */
 .section {
     padding: 60px 20px;
     text-align: center;
@@ -121,7 +121,7 @@ header {
     line-height: 1.6;
 }
 
-/* ====== DESTINASI ====== */
+/* DESTINASI */
 .destinations {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -153,7 +153,7 @@ header {
     margin: 10px 0;
 }
 
-/* ====== FORM KONTAK ====== */
+/* FORM KONTAK */
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -185,7 +185,7 @@ header {
     background-color: #0096c7;
 }
 
-/* ====== FOOTER ====== */
+/* FOOTER */
 footer {
     background-color: #0077b6;
     color: white;
@@ -205,7 +205,7 @@ footer {
     color: #ffb703;
 }
 
-/* ====== RESPONSIVE ====== */
+/* RESPONSIF */
 @media (max-width: 768px) {
     .navbar {
         display: none;
